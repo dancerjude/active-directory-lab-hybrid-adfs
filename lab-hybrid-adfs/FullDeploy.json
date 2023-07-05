@@ -120,7 +120,7 @@
     "cliSubnetName": "[concat('clientSubnet', parameters('deploymentNumber'))]",
     "imageOffer": "WindowsServer",
     "imagePublisher": "MicrosoftWindowsServer",
-    "imageSKU": "2022-Datacenter",
+    "imageSKU": "2022-datacenter-azure-edition",
     "publicIPAddressDNSName": "[tolower(concat(variables('companyNamePrefix'),parameters('deploymentNumber'),'-adfs'))]",
     "rdpIPAddressDNSName": "[tolower(concat(variables('companyNamePrefix'),'-adfs-rdp'))]",
     "storageAccountType": "Standard_LRS",
