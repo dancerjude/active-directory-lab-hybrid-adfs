@@ -104,7 +104,7 @@
     "domainJoinOptions": "3",
     "imageOffer": "WindowsServer",
     "imagePublisher": "MicrosoftWindowsServer",
-    "imageSKU": "2022-Datacenter",
+    "imageSKU": "2022-datacenter-azure-edition",
     "publicIPAddressDNSName": "[tolower(parameters('publicIPAddressDNSName'))]",
     "vnetID": "[resourceId('Microsoft.Network/virtualNetworks', parameters('virtualNetworkName'))]",
     "wapDSCConfigurationFunction": "wapDSCConfiguration.ps1\\Main",
