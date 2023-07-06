@@ -7,7 +7,7 @@ Param(
 
     [parameter(Mandatory = $true)]
     [System.Management.Automation.PSCredential]
-    $EACredential 
+    $EACredential
 )
 
     Import-DscResource -Module xActiveDirectory
@@ -25,7 +25,7 @@ Param(
 $ConfigurationData = @{
     AllNodes = @(
         @{
-            NodeName = '2012r2-dc'
+            NodeName = '2022-dc'
             PSDscAllowPlainTextPassword = $true
         }
     )
